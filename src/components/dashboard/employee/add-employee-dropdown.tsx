@@ -12,7 +12,7 @@ import {
 import { Field, FieldGroup } from "@/components/ui/field";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { Clock, Plus } from "lucide-react";
+import { Plus } from "lucide-react";
 
 const AddEmployeeDropdown = () => {
   return (

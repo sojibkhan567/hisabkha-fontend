@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { ChevronDown, Mail, Pencil, QrCode, Search, UserX } from "lucide-react";
+import { Mail, Pencil, QrCode, Search, UserX } from "lucide-react";
 
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -67,7 +67,7 @@ export default function EmployeeTable({
 
       return matchesSearch && matchesDepartment && matchesStatus;
     });
-  }, [search, department, status]);
+  }, [employees, search, department, status]);
 
   return (
     <div className="rounded-xl border bg-card p-4 shadow-sm">
